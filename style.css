@@ -1,0 +1,99 @@
+/* Основные стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #222;
+}
+
+.logo {
+    width: 50px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+
+.position-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.position-section h1 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.relative {
+    background-color: green;
+    position: relative;
+}
+
+.absolute {
+    background-color: red;
+    position: absolute;
+    top: 50px;
+}
+
+
+.information {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #111;
+}
+
+.information h2 {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-box {
+    background-color: #550000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: left;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    font-size: 14px;
+}
+
